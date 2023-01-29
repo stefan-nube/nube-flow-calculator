@@ -1,0 +1,134 @@
+<code class="code" id="code-dis">
+  <span class="style-tag">&lt;style&gt;</span>
+
+  <div>
+    <div class="spacing"></div>
+    <span class="html-tag">html</span> {
+    <span class="font-tag">font-size</span>: <span class="result">100</span>%;}
+  </div>
+  <div class="spacing"></div>
+  <div class="code--mobile">
+    <span class="media-tag">@media</span> (<span class="font-tag"
+      >min-width</span
+    >: <span class="result" width="mobile-dis">240</span>px) {
+    <span class="html-tag">html</span> {<span class="font-tag">font-size</span>:
+    calc(<span class="result" base="mobile">0.7142857142857143</span>rem +
+    <span class="result" coefficient="mobile">0.7590132827</span>vvw);} }
+  </div>
+  <div class="spacing"></div>
+  <div class="code--tablet">
+    <span class="media-tag">@media</span> (<span class="font-tag"
+      >min-width</span
+    >: <span class="result" width="tablet-dis">786</span>px) {
+    <span class="html-tag">html</span> {<span class="font-tag">font-size</span>:
+    calc(<span class="result" base="tablet">0.7142857142857143</span>rem +
+    <span class="result" coefficient="tablet">0.7590132827</span>vvw);} }
+  </div>
+  <div class="spacing"></div>
+  <div class="code--desktop-infinite" target="desktop-dis">
+    <span class="media-tag">@media</span> (<span class="font-tag"
+      >min-width</span
+    >: <span class="result" width="desktop-dis">992</span>px) {
+    <span class="html-tag">html</span> {<span class="font-tag">font-size</span>:
+    calc(<span class="result" base="desktop-infinite">0.7142857142857143</span
+    >rem +
+    <span class="result" coefficient="desktop-infinite">0.7590132827</span
+    >vvw);} }
+  </div>
+  <div class="spacing"></div>
+  <div class="code--desktop" target="desktop-dis">
+    <span class="media-tag">@media</span> (<span class="font-tag"
+      >min-width</span
+    >: <span class="result" width="desktop-inf-dis">1440</span>px) {
+    <span class="html-tag">html</span> {<span class="font-tag">font-size</span>:
+    calc(<span class="result" base="desktop">1.25</span>rem;} }
+  </div>
+  <div class="spacing"></div>
+  <span class="html-tag">.container</span> {
+  <span class="font-tag">max-width</span>:
+  <span class="result" container="max-w-dis">90</span>rem; }
+  <span class="style-tag">&lt;/style&gt;</span>
+</code>
+
+<code class="code" id="code">
+  <span class="style-tag">&lt;style&gt;</span>
+
+  <div>
+    <div class="spacing"></div>
+    <span class="html-tag">html</span> {
+    <span class="font-tag">font-size</span>: <span class="result">100</span>%;}
+  </div>
+  <div class="spacing"></div>
+  <div class="code--mobile">
+    <span class="media-tag">@media</span> (<span class="font-tag"
+      >min-width</span
+    >: <span class="result" width="mobile">240</span>px) {
+    <span class="html-tag">html</span> {<span class="font-tag">font-size</span>:
+    calc(<span class="result" size="mobile" font="mobile"
+      >0.7142857142857143</span
+    >rem + <span class="result">2</span> * ((100vw -
+    <span class="result" width="mobile">240</span>px) /
+    <span class="result" split="mobile">527</span>));} }
+  </div>
+  <div class="spacing"></div>
+  <div class="code--tablet">
+    <span class="media-tag">@media</span> (<span class="font-tag"
+      >min-width</span
+    >: <span class="result" width="tablet">768</span>px) {
+    <span class="html-tag">html</span> {<span class="font-tag">font-size</span>:
+    calc(<span class="result" size="tablet" font="tablet"
+      >0.7638888888888888</span
+    >rem + <span class="result" id="c-tablet-value-min-max">2</span> * ((100vw -
+    <span class="result" width="tablet">768</span>px) /
+    <span class="result" split="tablet">223</span>));} }
+  </div>
+  <div class="spacing"></div>
+  <div class="code--desktop">
+    <span class="media-tag">@media</span> (<span class="font-tag"
+      >min-width</span
+    >: <span class="result" width="desktop-small">992</span>px) {
+    <span class="html-tag">html</span> {<span class="font-tag">font-size</span>:
+    calc(<span class="result" size="desktop-small" font="desktop">0.875</span
+    >rem + <span class="result">2</span> * ((100vw -
+    <span class="result" width="desktop-small">992</span>px) /
+    <span class="result" split="desktop-tablet">448</span>));} }
+  </div>
+  <div class="spacing"></div>
+  <div class="spacing"></div>
+  <div target="desktop-code">
+    <span class="media-tag">@media</span> (<span class="font-tag"
+      >min-width</span
+    >: <span class="result" width="desktop">1440</span>px) {
+    <span class="html-tag">html</span> {<span class="font-tag">font-size</span>:
+    <span class="result">1</span>rem;} }
+    <div class="spacing"></div>
+    <div class="spacing"></div>
+    <span class="html-tag">.container</span> {
+    <span class="font-tag">max-width</span>:
+    <span class="result" container="size">90</span>rem; }
+  </div>
+  <div target="desktop-code" class="hidden-child">
+    <span class="media-tag">@media</span> (<span class="font-tag"
+      >min-width</span
+    >: <span class="result" width="desktop">1440</span>px) {
+    <span class="html-tag">html</span> {<span class="font-tag">font-size</span>:
+    calc(<span class="result" size="desktop-large">1</span>rem +
+    <span class="result">2</span> * ((100vw -
+    <span class="result" width="desktop">1440</span>px) /
+    <span class="result" split="desktop-wide">480</span>));} }
+    <div class="spacing"></div>
+    <div class="spacing"></div>
+    <span class="media-tag">@media</span> (<span class="font-tag"
+      >min-width</span
+    >: <span class="result" width="desktop-wide">1920</span>px) {
+    <span class="html-tag">html</span> {<span class="font-tag">font-size</span>:
+    <span class="result" font="desktop-wide">1.3333333333333333</span>rem;} }
+    <div class="spacing"></div>
+    <div class="spacing"></div>
+    <span class="html-tag">.container</span> {
+    <span class="font-tag">max-width</span>:
+    <span class="result" container="size-wide">120</span>rem; }
+  </div>
+  <div class="spacing"></div>
+  <span class="style-tag">&lt;/style&gt;</span>
+</code>

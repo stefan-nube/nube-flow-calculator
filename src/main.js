@@ -1,5 +1,3 @@
-import './styles/style.css'
-
 import copyCode from './features/copy-code'
 import valueUpdate from './features/values-update'
 

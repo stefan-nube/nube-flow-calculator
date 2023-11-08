@@ -2,8 +2,6 @@ import copyCode from './features/copy-code'
 import valueUpdate from './features/values-update'
 
 $(document).ready(function () {
-  // after the page elements are all loaded, then run the script
-  // Set the width inputs
   $('#d-w-max').val('1440')
   $('#d-w-min').val('992')
   $('#t-w-max').val('991')
